@@ -12,7 +12,7 @@ class Module extends \dektrium\user\Module
      */
     public $controllerNamespace = 'dektrium\user\controllers';
     public $controllerMap = [
-        'api' => 'devortix\user\controllers',
+        'api' => 'devortix\user\controllers\ApiController',
     ];
     public $viewPath = '@vendor/dektrium/yii2-user/views';
     // public $layoutPath = '@vendor/dektrium/yii2-user/views'
