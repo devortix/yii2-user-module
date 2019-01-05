@@ -1,5 +1,5 @@
 {
-    "name": "devortix/yii2-admin",
+    "name": "devortix/yii2-user",
     "description": "Devortix admin module",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "user REST module extend dektrium/yii2-user"],
