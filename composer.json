@@ -1,0 +1,35 @@
+{
+    "name": "devortix/yii2-admin",
+    "description": "Devortix admin module",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "user REST module extend dektrium/yii2-user"],
+    "license": "MIT",
+    "version": "1.0.0.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Roman Skorohod",
+            "email": "devortix@gmail.com",
+            "homepage": "https://devortix.com"
+        }
+    ],
+  
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "lajax/yii2-translate-manager": "^1.7",
+        "dektrium/yii2-user": "^0.9.14"
+    },
+   
+    "autoload": {
+        "psr-4": {
+            "devortix\\admin\\": "src/"
+        }
+    },
+    
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
