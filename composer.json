@@ -1,8 +1,8 @@
 {
     "name": "devortix/yii2-user-module",
-    "description": "Devortix admin module",
+    "description": "Devortix user module. REST module extend dektrium/yii2-user",
     "type": "yii2-extension",
-    "keywords": ["yii2", "yii 2", "user REST module extend dektrium/yii2-user"],
+    "keywords": ["yii2", "yii 2", "user module"],
     "license": "MIT",
     "version": "1.0.0.0",
     "minimum-stability": "stable",
