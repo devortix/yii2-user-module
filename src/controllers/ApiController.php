@@ -8,6 +8,7 @@ use yii\web\Response;
 
 class ApiController extends ActiveController
 {
+    public $modelClass = 'dektrium\user\models\User';
     public function beforeAction($action)
     {
         \Yii::$app->user->enableSession = false;
