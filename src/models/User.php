@@ -1,5 +1,5 @@
 <?php
-namespace devortix\models;
+namespace devortix\user\models;
 
 use dektrium\user\models\User as UserBase;
 
